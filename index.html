@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wikipedia Search</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Wikipedia Search</h1>
+      <button id="modeToggle">🌙</button>
+    </div>
+    <div class="search-box">
+      <input type="text" id="searchQuery" placeholder="Search topic (English only)" />
+      <button onclick="searchWikipedia()">Search</button>
+    </div>
+    <div id="loader"></div>
+    <div id="results"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
